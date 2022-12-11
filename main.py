@@ -1,35 +1,27 @@
-#pow üs alma
-a = pow(3,2)
-print(a)
-print(pow(4,4))
-b = pow(-4,3)
-c = pow(-4,4)
-print(b)
-print(c)
+#5.video konusu: temel bir kaç fonksiyon ve listeler konusunu işleyeceğiz
 
-print("-------------")
+#input -> input fonksiyonu kullanıcıdan bir girdi almak istediğimizde kullanacağımız fonksiyondur
+#a = input("lutfen adınızı girin: ")
+#print(a)
+#print(input("adınız nedir: "))
 
-#max-min ksımı->
+#len fonksiyonu -> bize listenin uzunluğunu verir
 
-x = max(1,2,3,4,5,6,7,4.21,7.01)
-print(x)
-y = min(1,2,3,-4.1,5,6,-7)
-print(y)
+#b = len("merhabalar")
+#print(b)
+#print(len("sddsfsdfsd65f4ads98fads"))      #-> buradaki önemli husus listelerde geçerli olması bu fonksiyonun
 
-print("-------------")
 
-#round yuvarlama
-print(round(4.7))
-print(round(4.2))
-print(round(4.5))
-print(round(5.5))
-print(round(6.5))
+#type -> değişkenin tipini verir
+#print(type(1))
+#print(type(1.5))
+#print(type("1"))
 
-#buçuklularda orneğin 5.5, 45.5 65.5 gibi sayılarda bir sonraki degere atıyor yani; 6,46,66 gibi
+#format fonksiyonu -> bu fonksiyon ise listede süslü parentez kullandıysak ve içi boş ise içine yazı yazabiliyoruz
 
-print("-------------")
+print("selamlar {}, senin adın nedir?".format("benim adım furkan"))
+print("selamlar {}, senin adın {}".format("benim adım furkan","nedir?"))
 
-#abs mutlak deger
 
-print(abs(-74))
-print(abs(74))
+
+
